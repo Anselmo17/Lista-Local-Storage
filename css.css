@@ -1,0 +1,115 @@
+nav{
+    background: rgb(97, 141, 8);
+    margin-bottom: -20px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+nav h2{
+    font-size: 2em;
+    font-family: cursive;
+}
+
+form{
+    background: rgb(31, 31, 92);
+    color: aliceblue;
+    margin-top: 0px;
+    height: 25px;
+    padding: 20px;
+    font-family: cursive;
+   margin-bottom: 1%;
+}
+
+button{
+    border-radius:5px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-family: cursive;
+}
+
+button:hover{
+    cursor: pointer;
+    color: white;   
+    background: black;
+}
+
+.listaProfissao{
+margin-bottom: 10%;
+margin-top:10%;
+}
+
+.lista{
+    color: rgb(2, 17, 31);
+    font-family: cursive;
+}
+
+td , tr{
+ border:2px solid black;
+}
+
+th{
+    border:2px solid rgb(7, 58, 5);
+    background: rgb(137, 190, 30);
+}
+
+.rodape{
+    background: rgb(97, 141, 8);
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    margin-bottom:-1%;
+    font-weight: 800;
+    text-shadow: 2px 2px rgb(219, 203, 203);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+
+
+/*mobile*/
+
+@media(max-width:400px){
+
+    nav{
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    form{
+        height: auto;
+    }
+
+    form input{
+        width: 100%;
+    }
+
+    form button{
+        margin-top:1%;
+        width: 100%;
+        background: rgb(17, 119, 17);
+        color: rgb(240, 241, 235);
+        font-size: 1.2em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .lista{
+        text-align: center;
+        font-size: 1em;
+        color: rgb(7, 38, 70);
+        font-family: cursive;
+    }
+    
+    nav h2{
+        font-size: 1.3em;
+    }
+
+    table{
+        background: rgb(85, 35, 7);
+        color:white;
+    }
+}
